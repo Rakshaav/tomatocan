@@ -13,15 +13,6 @@ class UsersControllerTest < ActionController::TestCase
   end
 
 
-  test "return_profile_pic_from_query" do
-   get :index
-   assert_response :success
-   assert_not_nil assigns(:users)
-   hello= @user[:email]
-   puts hello
-  end
-
-
   test "should_get_users_about" do
     get :about, params: {permalink: 'user1'}
     assert_response :success
