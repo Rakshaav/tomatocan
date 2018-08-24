@@ -1,6 +1,10 @@
 require 'test_helper'
 
+<<<<<<< HEAD
 class PasswordsControllerTest < ActionController::TestCase
+=======
+class Users::PasswordsController < ActionController::TestCase
+>>>>>>> 79d9a02cc35521608799ebe2cdf01ae92851dd54
   setup do
       @user = users(:one)
       @password = passwords(:one)
