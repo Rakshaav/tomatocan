@@ -24,8 +24,6 @@ class AgreementsControllerTest < ActionController::TestCase
   end
 
 
-
-
   test "should show agreement" do
     get :show, params: { id: @agreement }
     assert_response :success
